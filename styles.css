@@ -72,7 +72,7 @@ body {
 
   font-size: 0.8rem;
 }
-@media (max-width : 320px) {
+@media (min-width : 320px) {
   .wrapper {
     zoom : 1.5 ; 
   }
