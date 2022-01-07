@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,500&family=Mukta:wght@200&family=Poppins&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
+  text-align: center;
+}
+:root{
+  --font : "Mukta", sans-serif ;
+}
+body {
+  /* background-color: #058ddc; */
+  background: url("https://images.pexels.com/photos/4846457/pexels-photo-4846457.jpeg?cs=srgb&dl=pexels-rachel-claire-4846457.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 500px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.container {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 8px;
+  text-align: center;
+  min-height: 100px;
+  padding: 10px 40px;
+  box-shadow: 0 20px 80px rgba(150, 128, 129, 0.5);
+}
+
+.container h1{
+  font-family: var(--font);
+  font-size: 30px;
+  margin-bottom: -2px;
+}
+.container p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+
+}
+
+.container button {
+  font-weight: bolder;
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+  padding: 8px 28px;
+  background-color: black;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  /* box-shadow: 0 10px 80px rgba(31, 33, 34, 0.5); */
+}
+.container .quote {
+  margin-bottom: 25px;
+  font-weight: bolder;
+}
+
+.container .writer{
+  font-weight: bold;
+}
+
+.container .footer p {
+
+  font-size: 0.8rem;
+}
